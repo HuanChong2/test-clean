@@ -1,7 +1,7 @@
 
-# 应用程序配置 (版本 26)
+# 应用程序配置 (版本 27)
 application:
-  name: "finance-app-v26"
+  name: "finance-app-v27"
 
 # 数据库连接信息
 database:
@@ -9,5 +9,5 @@ database:
   host: "prod-db-server.internal.net"
   user: "admin_user"
   # 注意：这是不安全的！
-  password: "${MYSQL_DB}@ssw0rd_26!"
+  password: "${MYSQL_DB}@ssw0rd_27!"
   db_name: "production_db"
