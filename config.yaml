@@ -1,0 +1,13 @@
+
+# 应用程序配置 (版本 1)
+application:
+  name: "finance-app-v1"
+
+# 数据库连接信息
+database:
+  type: mysql
+  host: "prod-db-server.internal.net"
+  user: "admin_user"
+  # 注意：这是不安全的！
+  password: "${MYSQL_DB}@ssw0rd_1!"
+  db_name: "production_db"
