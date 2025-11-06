@@ -1,7 +1,7 @@
 
-# 应用程序配置 (版本 54)
+# 应用程序配置 (版本 55)
 application:
-  name: "finance-app-v54"
+  name: "finance-app-v55"
 
 # 数据库连接信息
 database:
@@ -9,5 +9,5 @@ database:
   host: "prod-db-server.internal.net"
   user: "admin_user"
   # 注意：这是不安全的！
-  password: "${MYSQL_DB}@ssw0rd_54!"
+  password: "${MYSQL_DB}@ssw0rd_55!"
   db_name: "production_db"
